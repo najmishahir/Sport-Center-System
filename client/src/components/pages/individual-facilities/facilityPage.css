@@ -1,0 +1,25 @@
+.bookingFacilityPage {
+    width: 100%;
+}
+
+.facilityPageContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arimo;
+    overflow: hidden;
+}
+
+.facilityPageWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.calenderBasket {
+    display: flex;
+    width: 90%;
+    align-content: center;
+    margin-bottom: 30px;
+}

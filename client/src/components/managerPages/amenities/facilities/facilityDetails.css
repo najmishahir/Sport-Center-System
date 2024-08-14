@@ -1,0 +1,118 @@
+.facilityActivityDetails{
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.facilityActivityDetailsTable{
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f9f9;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    padding: 20px;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.09);
+        border-radius: 10px;
+        color: black;
+    overflow: auto;
+}
+
+.facilityActivityDetailsTitle{
+    color: black;
+    padding: 20px 20px 0;
+    font-size: 20px ;
+    font-weight: 600;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+
+th{
+    padding: 10px;
+    text-align: left;
+    background-color: #033756 ;
+    color: white;
+}
+
+
+td{
+    border-bottom: 1px solid #E4E3DF;
+    text-align: left;
+    padding: 10px;
+}
+
+.button{
+    width: 50%;
+	border: none;
+	border-radius: 20px;
+	padding: 5px;
+    cursor: pointer;
+	color: white;
+    background-color: grey;
+}
+
+.button:hover{
+	transform: scale(.98);
+	background-color: black ;
+	color: white;
+}
+
+.editFacilityButton{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+	border: none;
+	border-radius: 20px;
+    cursor: pointer;
+	color: white;
+    background-color: grey;
+    box-sizing: border-box;
+}
+
+.viewActivityButton{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+	border: none;
+	border-radius: 20px;
+    cursor: pointer;
+	color: white;
+    background-color: grey;
+    box-sizing: border-box;
+}
+
+.deleteButton{
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 10 px;
+    margin-left: 10px;
+}
+
+
+.discountTable {
+    width: 50%;
+    margin-top: 30px;
+  }
+
+.discountHead{
+    background-color: grey;
+    padding: 8px;
+}
+
+.editFacilityForm {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.editDiscountForm {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}

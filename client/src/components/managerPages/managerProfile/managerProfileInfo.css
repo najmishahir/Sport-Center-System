@@ -1,0 +1,147 @@
+
+.editInfo{
+    height: max-content;
+    width: 30vw;
+    margin-right: 30px;
+    background-color: white;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    display: flex;
+}
+
+.editInfoTitle{
+    font-family: Arimo;
+    color: black;
+    font-size: 20px ;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.userDetailsForm{
+    padding: 30px;
+    display: flex;
+	flex-direction: column;
+	flex: 90%;
+}
+
+.userDetails{
+    max-height: 440px;
+    overflow: auto;
+}
+
+.userDetails > label{
+	font-family:Arimo ;
+	color: black;
+	font-size: 18px;
+	margin-top: 0px;
+}
+
+.userDetails > p{
+	font-family:Arimo ;
+	color: grey;
+	font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.userDetails > input{
+	color: black;
+    font-size: 18px;
+	height: 30px;
+	border: none ;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E4E3DF;
+    display: block;
+}
+
+.editProfileButton{
+    align-self: center;
+	width: 150px;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+    margin-top: 80px;
+	cursor: pointer;
+	color: white;
+    background-color: #1C768F;
+}
+
+
+.editProfileButton:hover{
+	transform: scale(.98);
+	background-color: #032539;
+	color: white;
+}
+
+.updateProfileButton{
+    align-self: center;
+	width: 150px;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+	color: white;
+    background-color: #fa991c;
+}
+
+.updateProfileButton:hover{
+	transform: scale(.98);
+	background-color: #DE7F05 ;
+	color: white;
+}
+
+.editModePassword > label {
+	font-family:Arimo ;
+	color: black;
+	font-size: 18px;
+	margin-top: 0px;
+}
+
+.editModePassword > input{
+	color: black;
+    font-size: 18px;
+	height: 30px;
+	border: none ;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E4E3DF;
+    display: block;
+}
+
+.membershipDetails > p{
+	font-family:Arimo ;
+	color: grey;
+	font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.membershipDetails > label{
+	font-family:Arimo ;
+	color: black;
+	font-size: 18px;
+	margin-top: 0px;
+}
+
+.cancelMembershipButton{
+    align-self: center;
+	border: none;
+	margin-top: 15px;
+	cursor: pointer;
+	color: rgb(103, 103, 103);
+	background-color: transparent;
+	font-size: 15px;
+	text-decoration: underline;
+    /* background-color: red; */
+}
+
+.cancelMembershipButton:hover{
+	transform: scale(.99);
+	color:rgb(188, 34, 34) ;
+}
+
+@media screen and (max-width: 768px) {
+    .editInfo {
+        width: 90%;
+		margin-right: 0;
+    }
+}

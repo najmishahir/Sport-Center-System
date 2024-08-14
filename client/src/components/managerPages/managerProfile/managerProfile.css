@@ -1,0 +1,84 @@
+.manager-profile{
+    width: 100vw;
+    height: 100vh;
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arimo;
+    overflow: auto;
+}
+
+.managerProfileWrapper{
+    height: 90%; 
+    display: flex;
+    margin-top: 150px;
+}
+
+/* .managerProfileRight{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    flex:2;
+    background-color:white;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.userBookingsTitle{
+    font-family: Arimo;
+    color: black;
+    padding: 20px 20px 0;
+    font-size: 20px ;
+    font-weight: 600;
+}
+
+.userBookingsTable{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    padding: 10px;
+    background-color: #032539;
+    color: white;
+}
+
+td{
+    border-bottom: 0.5px solid #E4E3DF;
+    text-align: left;
+    padding: 10px;
+}
+
+.profileDeleteBookingBtn{
+    width: 80px;
+	border: none;
+	border-radius: 20px;
+	padding: 5px;
+    cursor: pointer;
+	color: white;
+    background-color: grey;
+}
+
+
+
+.profileDeleteBookingBtn:hover{
+	transform: scale(.98);
+	background-color: black ;
+	color: white;
+} */

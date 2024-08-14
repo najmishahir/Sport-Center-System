@@ -1,0 +1,96 @@
+.bookClasses{
+  height: max-content;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arimo;
+}
+.classWrapper{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  margin-top: 110px;
+}
+
+.classes{
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 2.5;
+  margin-right: 30px;
+  background-color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  width: 100%;
+  height:100%
+}
+  
+  
+.bookClassesDescription{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.bookClassesDescription > h3{
+  color: #032539;
+  font-weight: 800;
+}
+  
+/* Also found in facilities.css, will affect Facilities.js*/
+.gridFormat{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 90%;
+}
+
+
+
+/*Make code responsive*/
+@media (max-width: 1200px) {
+  .gridFormat{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .classWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 90%;
+  }
+
+  .classes{
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .classWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 90%;
+  }
+
+  .classes{
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+
+  .gridFormat{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+
+
+

@@ -1,0 +1,161 @@
+.pricingTitle {
+    padding-top: 30px;
+    align-self: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px ;
+}
+
+.pricingHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing {
+    align-items: center;
+    justify-content: center;
+    font-family: Arimo;
+}
+
+.pricing-container {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+
+}
+
+.classes-container{
+    background: #f9f9f9;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+.membership-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 70px;
+    /* background-color: #eee; */
+    background-color: #eee;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+
+}
+
+.grid-item h3{
+    font: bold;
+    color: black;
+}
+
+.join-button {
+    padding: 20px;
+    background-color: #1C768F;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.join-button:hover {
+    transform: scale(.98);
+	background-color: black ;
+    color: white;
+}
+
+.pricingPrice {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.class-list {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.class-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    margin: 5px;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 250px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+
+.facility-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.facility-list {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.facility {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.facility-price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.facility-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    margin: 5px;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 280px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+
+}
+
+.facility-item h3{
+    padding-top: 30px;
+}
+
+

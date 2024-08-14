@@ -1,0 +1,28 @@
+
+.facilityItem{
+  position: relative;
+  border-radius:10px ;
+  background-color: #1c768f;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+}
+
+.facilityItem:hover{
+  transform: scale(.99);
+  cursor:pointer
+}
+
+
+.facilityName{
+  color: white;
+  /* align-self: flex-end; */
+  font-weight: 600;
+}
+
+
+.facilityName > p{
+  font-size: 20px;
+  font-family: Arimo;
+  margin-top:100px;
+}

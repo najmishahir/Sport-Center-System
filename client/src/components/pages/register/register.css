@@ -1,0 +1,132 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    background: white url("../../../media/gymcorp-login-bg.jpg");
+    background-position-y: -120px; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arimo;
+}
+
+.registerWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.registerLeft, .registerRight{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.registerLeft{
+    padding-right: 20px;
+}
+
+.registerLogo{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;  
+    margin-bottom: 10px;
+}
+
+.registerDesc{
+    font-size:23px;
+}
+
+.registerBox{
+    height:400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    justify-content: space-between;
+}
+
+.registerBoxDesc{
+    padding: 0 20px 15px 0;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    align-self: center;
+}
+.registerInput{
+    height: 50px;
+    border-radius:10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.registerInput:focus{
+    outline: none;
+}
+
+.registerButton{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FA991C;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.registerButton:hover{
+    transform: scale(.98);
+    background-color:#DE7F05 ;
+}
+
+
+
+.registerLoginButton{
+    width: 30%;
+    height: 50px;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #1C768F;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top:10px
+}
+
+.registerLoginButton:hover{
+    transform: scale(.98);
+    background-color: #032539;
+}
+
+.buttonInLink{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;}
+
+.registerErrorMsg{
+    margin-top: 10px;
+    color: red;
+    align-self: center;
+}
+
+.registerSuccessMsg{
+    margin-top: 10px;
+    color: green;
+    align-self: center;
+}

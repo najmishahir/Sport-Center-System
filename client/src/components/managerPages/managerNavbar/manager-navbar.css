@@ -1,0 +1,204 @@
+.managerNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #033756;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 0 50px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+.managerNavLeft {
+  display: flex;
+  align-items: center;
+  margin-right: 20%;
+}
+
+.managerNavLogo {
+  color: #fa991c;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.managerNavLogo:hover {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  transform: scale(.99);
+}
+
+.managerNavList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.managerNavItem {    
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.managerNavLink {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.managerNavLink:hover {
+  color: #fa991c;
+  text-decoration: none;
+}
+
+.managerNavRight {
+  display: flex;
+  align-items: center;
+}
+
+.managerNavLogout {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.2s ease-in-out;
+}
+
+.managerNavLogout:hover {
+  color: #fa991c;
+}
+
+.managerNavDropdownList li {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.managerNavDropdownList li:hover {
+  color: #fa991c;
+}
+
+
+.managerNavDropdown {
+  position: relative;
+}
+
+.managerNavDropdownTrigger {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.managerNavDropdownTrigger:hover {
+  color: #fa991c;
+}
+
+.managerNavDropdownList {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #033756;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  list-style: none;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  align-content: center;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.managerNavDropdown:hover .managerNavDropdownList {
+  opacity: 1;
+  visibility: visible;
+  align-items: center;
+  cursor:pointer;
+}
+
+.managerNavDropdownItem {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.burger-menu-icon{
+  display: none;
+}
+
+.managerNavListLogout{
+  position: absolute;
+  background-color: #033756;
+  list-style: none;
+  margin: 0;
+  right: 70px ;
+  padding: 0;
+  display: flex;
+}
+
+.managerNavItemLogout{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .managerNavList{
+    display: none;
+  }
+
+  .nav-links-burger{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+    background-color: #033756;
+    left: 0;
+    top: 75px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+
+
+  .managerNavLeft{
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+  }
+
+  .managerNavItem{
+    padding:10px;
+    margin-right: 40px;
+  }
+
+  .burger-menu-icon{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: #033756;
+    border: none;
+    outline: none;
+    top: 15px;  
+    right: 25px;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 400px) {
+  .managerNavLogo {
+    display: none;
+  }
+}
+
+

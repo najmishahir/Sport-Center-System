@@ -1,0 +1,145 @@
+
+.basket{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    flex: 1;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    background-color: #fa991c;
+    height: 70vh;
+    width: 90%;
+}
+
+.basketTitle{
+    font-family: Arimo;
+    color: white;
+    font-size: 20px ;
+    font-weight: 600;
+    margin: 20px 0;
+    align-self: center;
+    
+}
+
+.userBasket{
+    flex: 90%;
+    background-color: #f5f5f5;   
+    overflow: auto;
+}
+
+
+.itemInBasket{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    border-bottom: 1px solid #E4E3DF;
+    color: rgb(103, 103, 103);
+    display: flex;
+}
+
+.itemDescription > p{
+    margin: 0;
+}
+
+.belowDescription{
+    margin-right: 10px;    
+}
+
+.itemCost{
+    float: right;
+}
+
+.removeBookingButton{
+    align-self: center;
+	border: none;
+    padding: 0;
+	cursor: pointer;
+	color: rgb(103, 103, 103);
+	background-color: transparent;
+	font-size: 15px;
+    text-decoration: underline;
+}
+
+.removeBookingButton:hover{
+	transform: scale(.99);
+	color:black ;
+}
+.basketBottom{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid #E4E3DF;
+}
+.basketTotalCost{
+    padding-top:10px;
+    font-weight: 600;
+    align-self: center;
+}
+
+.checkoutButton{
+    align-self: center;
+	width: 150px;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+    background-color: #032539;
+    float: right;
+}
+
+.checkoutButton:hover{
+	transform: scale(.98);
+	color: white;
+}
+
+
+/* for not logged in basket */
+
+.basketLoginPrompt{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.basketLoginPromptDescription{
+    padding: 10px;
+    text-align: center;
+}
+
+.basketLoginButton{
+    align-self: center;
+    font-weight: 600;
+	width: 150px;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+	cursor: pointer;
+	color: white;
+    background-color: #fa991c;
+}
+
+.basketLoginButton:hover{
+	transform: scale(.98);
+	background-color: #DE7F05 ;
+	color: white;
+}
+
+
+/*Make code responsive*/
+@media (max-width: 1200px) {
+    .basket{
+        height: 100%;
+        width: 100%;
+    }
+}

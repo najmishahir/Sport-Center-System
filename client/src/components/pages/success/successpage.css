@@ -1,0 +1,53 @@
+.success-page {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+.successpage-container {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #1c768f;
+  width: 100%; /* Set width to 100% */
+  max-width: 1000px; /* Increase max-width */
+  padding: 20px; /* Set initial padding */
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  margin: 0 20px; /* Add margin to the sides */
+}
+
+.success-heading {
+  color: white;
+  font-size: 30px;
+  font-family: "Arimo", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.success-text {
+  color: white;
+  font-size: 18px;
+  font-family: "Arimo", sans-serif;
+  margin-bottom: 20px;
+}
+
+.success-button {
+  background-color: #fa991c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Arimo", sans-serif;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .successpage-container {
+    padding: 40px; /* Increase padding on larger screens */
+  }
+}
